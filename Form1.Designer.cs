@@ -71,6 +71,7 @@
             // 
             // UpButton
             // 
+            this.UpButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpButton.Location = new System.Drawing.Point(215, 83);
             this.UpButton.Name = "UpButton";
             this.UpButton.Size = new System.Drawing.Size(166, 125);
@@ -80,6 +81,7 @@
             // 
             // UpRightButton
             // 
+            this.UpRightButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpRightButton.Location = new System.Drawing.Point(396, 83);
             this.UpRightButton.Name = "UpRightButton";
             this.UpRightButton.Size = new System.Drawing.Size(166, 125);
@@ -89,6 +91,7 @@
             // 
             // LeftButton
             // 
+            this.LeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LeftButton.Location = new System.Drawing.Point(34, 223);
             this.LeftButton.Name = "LeftButton";
             this.LeftButton.Size = new System.Drawing.Size(166, 125);
@@ -98,6 +101,7 @@
             // 
             // MidButton
             // 
+            this.MidButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.MidButton.Location = new System.Drawing.Point(215, 223);
             this.MidButton.Name = "MidButton";
             this.MidButton.Size = new System.Drawing.Size(166, 125);
@@ -107,6 +111,7 @@
             // 
             // RightButton
             // 
+            this.RightButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.RightButton.Location = new System.Drawing.Point(396, 223);
             this.RightButton.Name = "RightButton";
             this.RightButton.Size = new System.Drawing.Size(166, 125);
@@ -116,6 +121,7 @@
             // 
             // DownLeftButton
             // 
+            this.DownLeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DownLeftButton.Location = new System.Drawing.Point(34, 366);
             this.DownLeftButton.Name = "DownLeftButton";
             this.DownLeftButton.Size = new System.Drawing.Size(166, 125);
@@ -125,6 +131,7 @@
             // 
             // DownButton
             // 
+            this.DownButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DownButton.Location = new System.Drawing.Point(215, 366);
             this.DownButton.Name = "DownButton";
             this.DownButton.Size = new System.Drawing.Size(166, 125);
@@ -134,6 +141,7 @@
             // 
             // DownRightButton
             // 
+            this.DownRightButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DownRightButton.Location = new System.Drawing.Point(396, 366);
             this.DownRightButton.Name = "DownRightButton";
             this.DownRightButton.Size = new System.Drawing.Size(166, 125);
