@@ -36,10 +36,12 @@ namespace Tic_Tac_Toe_Application
             if (UpButton.Text == "")
             {
                 UpButton.Text = "X";
+                UpButton.BackColor = Color.Red;
             }
             else
             {
                 UpButton.Text = "O";
+                UpButton.BackColor= Color.Blue;
             }
         }
 
@@ -48,10 +50,12 @@ namespace Tic_Tac_Toe_Application
             if (UpRightButton.Text == "")
             {
                 UpRightButton.Text = "X";
+                UpRightButton.BackColor = Color.Red;
             }
             else
             {
                 UpRightButton.Text = "O";
+                UpRightButton.BackColor = Color.Blue;
             }
         }
 
@@ -60,10 +64,12 @@ namespace Tic_Tac_Toe_Application
             if (LeftButton.Text == "")
             {
                 LeftButton.Text = "X";
+                LeftButton.BackColor = Color.Red;
             }
             else
             {
                 LeftButton.Text = "O";
+                LeftButton.BackColor= Color.Blue;
             }
         }
 
@@ -72,10 +78,12 @@ namespace Tic_Tac_Toe_Application
             if (MidButton.Text == "")
             {
                 MidButton.Text = "X";
+                MidButton.BackColor = Color.Red;
             }
             else
             {
                 MidButton.Text = "O";
+                MidButton.BackColor= Color.Blue;
             }
         }
 
@@ -84,10 +92,12 @@ namespace Tic_Tac_Toe_Application
             if (RightButton.Text == "")
             {
                 RightButton.Text = "X";
+                RightButton.BackColor = Color.Red;
             }
             else
             {
                 RightButton.Text = "O";
+                RightButton.BackColor = Color.Blue;
             }
         }
 
@@ -96,10 +106,12 @@ namespace Tic_Tac_Toe_Application
             if (DownLeftButton.Text == "")
             {
                 DownLeftButton.Text = "X";
+                DownLeftButton.BackColor = Color.Red;
             }
             else
             {
                 DownLeftButton.Text = "O";
+                DownLeftButton.BackColor = Color.Blue;
             }
         }
 
@@ -108,10 +120,12 @@ namespace Tic_Tac_Toe_Application
             if (DownButton.Text == "")
             {
                 DownButton.Text = "X";
+                DownButton.BackColor = Color.Red;
             }
             else
             {
                 DownButton.Text = "O";
+                DownButton.BackColor = Color.Blue;
             }
         }
 
@@ -120,11 +134,16 @@ namespace Tic_Tac_Toe_Application
             if (DownRightButton.Text == "")
             {
                 DownRightButton.Text = "X";
+                DownRightButton.BackColor = Color.Red;
             }
             else
             {
                 DownRightButton.Text = "O";
+                DownRightButton.BackColor = Color.Blue;
             }
+            //problem with player turn to push the button
+            //deciding the winner
+            //stop the button after click
         }
     }
 }
