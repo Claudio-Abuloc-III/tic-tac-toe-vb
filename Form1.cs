@@ -29,7 +29,7 @@ namespace Tic_Tac_Toe_Application
         void winner()
         {
 
-            if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X")
+            if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X") 
             {
                 MessageBox.Show("Player 1 wins");
                 Enable_False();
@@ -109,7 +109,47 @@ namespace Tic_Tac_Toe_Application
                 MessageBox.Show("Player 1 wins");
                 Enable_False();
             }
-
+            // Player 2
+            if (UpLeftButton.Text == "O" && UpButton.Text == "O" && UpRightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (LeftButton.Text == "O" && MidButton.Text == "O" && RightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (DownLeftButton.Text == "O" && DownButton.Text == "O" && DownRightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (UpLeftButton.Text == "O" && LeftButton.Text == "O" && DownLeftButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (UpButton.Text == "O" && MidButton.Text == "O" && DownButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (UpRightButton.Text == "O" && RightButton.Text == "O" && DownRightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (UpLeftButton.Text == "O" && MidButton.Text == "O" && DownRightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
+            if (DownLeftButton.Text == "O" && MidButton.Text == "O" && UpRightButton.Text == "O")
+            {
+                MessageBox.Show("Player 2 wins");
+                Enable_False();
+            }
 
         }
         public Form1()
