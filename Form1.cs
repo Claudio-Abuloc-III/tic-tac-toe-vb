@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Tic_Tac_Toe_Application
 {
-    public partial class Form1 : Form
+    public partial class TicTacToe : Form
     {
         bool turn = true;
 
@@ -160,7 +160,7 @@ namespace Tic_Tac_Toe_Application
             }
 
         }
-        public Form1()
+        public TicTacToe()
         {
             InitializeComponent();
         }
