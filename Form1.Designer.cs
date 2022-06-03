@@ -38,12 +38,14 @@
             this.DownLeftButton = new System.Windows.Forms.Button();
             this.DownButton = new System.Windows.Forms.Button();
             this.DownRightButton = new System.Windows.Forms.Button();
+            this.ResetButton = new System.Windows.Forms.Button();
             this.Box.SuspendLayout();
             this.SuspendLayout();
             // 
             // Box
             // 
             this.Box.BackColor = System.Drawing.Color.SaddleBrown;
+            this.Box.Controls.Add(this.ResetButton);
             this.Box.Controls.Add(this.DownRightButton);
             this.Box.Controls.Add(this.DownButton);
             this.Box.Controls.Add(this.DownLeftButton);
@@ -62,7 +64,7 @@
             // UpLeftButton
             // 
             this.UpLeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpLeftButton.Location = new System.Drawing.Point(34, 83);
+            this.UpLeftButton.Location = new System.Drawing.Point(34, 137);
             this.UpLeftButton.Name = "UpLeftButton";
             this.UpLeftButton.Size = new System.Drawing.Size(166, 125);
             this.UpLeftButton.TabIndex = 0;
@@ -72,7 +74,7 @@
             // UpButton
             // 
             this.UpButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpButton.Location = new System.Drawing.Point(215, 83);
+            this.UpButton.Location = new System.Drawing.Point(216, 137);
             this.UpButton.Name = "UpButton";
             this.UpButton.Size = new System.Drawing.Size(166, 125);
             this.UpButton.TabIndex = 1;
@@ -82,7 +84,7 @@
             // UpRightButton
             // 
             this.UpRightButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.UpRightButton.Location = new System.Drawing.Point(396, 83);
+            this.UpRightButton.Location = new System.Drawing.Point(396, 137);
             this.UpRightButton.Name = "UpRightButton";
             this.UpRightButton.Size = new System.Drawing.Size(166, 125);
             this.UpRightButton.TabIndex = 2;
@@ -92,7 +94,7 @@
             // LeftButton
             // 
             this.LeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LeftButton.Location = new System.Drawing.Point(34, 223);
+            this.LeftButton.Location = new System.Drawing.Point(34, 268);
             this.LeftButton.Name = "LeftButton";
             this.LeftButton.Size = new System.Drawing.Size(166, 125);
             this.LeftButton.TabIndex = 3;
@@ -102,7 +104,7 @@
             // MidButton
             // 
             this.MidButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MidButton.Location = new System.Drawing.Point(215, 223);
+            this.MidButton.Location = new System.Drawing.Point(216, 268);
             this.MidButton.Name = "MidButton";
             this.MidButton.Size = new System.Drawing.Size(166, 125);
             this.MidButton.TabIndex = 4;
@@ -112,7 +114,7 @@
             // RightButton
             // 
             this.RightButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RightButton.Location = new System.Drawing.Point(396, 223);
+            this.RightButton.Location = new System.Drawing.Point(396, 268);
             this.RightButton.Name = "RightButton";
             this.RightButton.Size = new System.Drawing.Size(166, 125);
             this.RightButton.TabIndex = 5;
@@ -122,7 +124,7 @@
             // DownLeftButton
             // 
             this.DownLeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DownLeftButton.Location = new System.Drawing.Point(34, 366);
+            this.DownLeftButton.Location = new System.Drawing.Point(34, 399);
             this.DownLeftButton.Name = "DownLeftButton";
             this.DownLeftButton.Size = new System.Drawing.Size(166, 125);
             this.DownLeftButton.TabIndex = 6;
@@ -132,7 +134,7 @@
             // DownButton
             // 
             this.DownButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DownButton.Location = new System.Drawing.Point(215, 366);
+            this.DownButton.Location = new System.Drawing.Point(215, 399);
             this.DownButton.Name = "DownButton";
             this.DownButton.Size = new System.Drawing.Size(166, 125);
             this.DownButton.TabIndex = 7;
@@ -142,12 +144,23 @@
             // DownRightButton
             // 
             this.DownRightButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DownRightButton.Location = new System.Drawing.Point(396, 366);
+            this.DownRightButton.Location = new System.Drawing.Point(396, 399);
             this.DownRightButton.Name = "DownRightButton";
             this.DownRightButton.Size = new System.Drawing.Size(166, 125);
             this.DownRightButton.TabIndex = 8;
             this.DownRightButton.UseVisualStyleBackColor = true;
             this.DownRightButton.Click += new System.EventHandler(this.DownRightButton_Click);
+            // 
+            // ResetButton
+            // 
+            this.ResetButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ResetButton.Location = new System.Drawing.Point(34, 31);
+            this.ResetButton.Name = "ResetButton";
+            this.ResetButton.Size = new System.Drawing.Size(529, 88);
+            this.ResetButton.TabIndex = 9;
+            this.ResetButton.Text = "RESET";
+            this.ResetButton.UseVisualStyleBackColor = true;
+            this.ResetButton.Click += new System.EventHandler(this.ResetButton_Click);
             // 
             // Form1
             // 
@@ -175,6 +188,7 @@
         private System.Windows.Forms.Button UpRightButton;
         private System.Windows.Forms.Button UpButton;
         private System.Windows.Forms.Button UpLeftButton;
+        private System.Windows.Forms.Button ResetButton;
     }
 }
 

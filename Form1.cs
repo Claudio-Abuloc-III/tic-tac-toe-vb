@@ -311,5 +311,38 @@ namespace Tic_Tac_Toe_Application
             DownRightButton.Enabled = false;   
             //deciding the winner
         }
+
+        private void ResetButton_Click(object sender, EventArgs e)
+        {
+            UpLeftButton.Enabled = true;
+            UpButton.Enabled = true;
+            UpRightButton.Enabled = true;
+            LeftButton.Enabled = true;
+            MidButton.Enabled = true;
+            RightButton.Enabled = true;
+            DownLeftButton.Enabled = true;
+            DownButton.Enabled = true;
+            DownRightButton.Enabled = true;
+
+            UpLeftButton.Text = "";
+            UpButton.Text = "";
+            UpRightButton.Text = "";
+            LeftButton.Text = "";
+            MidButton.Text = "";
+            RightButton.Text = "";
+            DownLeftButton.Text = "";
+            DownButton.Text = "";
+            DownRightButton.Text = "";
+
+            UpLeftButton.BackColor = Color.White;
+            UpButton.BackColor = Color.White;
+            UpRightButton.BackColor = Color.White;
+            LeftButton.BackColor = Color.White;
+            MidButton.BackColor = Color.White;
+            RightButton.BackColor = Color.White;
+            DownLeftButton.BackColor = Color.White;
+            DownButton.BackColor = Color.White;
+            DownRightButton.BackColor = Color.White;
+        }
     }
 }
