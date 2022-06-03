@@ -32,7 +32,7 @@ namespace Tic_Tac_Toe_Application
                 UpLeftButton.BackColor = Color.Blue;
             }
             turn = !turn;
-
+            UpLeftButton.Enabled = false;
         }
 
         private void UpButton_Click(object sender, EventArgs e)
@@ -48,6 +48,7 @@ namespace Tic_Tac_Toe_Application
                 UpButton.BackColor= Color.Blue;
             }
             turn = !turn;
+            UpButton.Enabled = false;
 
         }
 
@@ -64,7 +65,7 @@ namespace Tic_Tac_Toe_Application
                 UpRightButton.BackColor = Color.Blue;
             }
             turn = !turn;
-
+            UpRightButton.Enabled = false;
         }
 
         private void LeftButton_Click(object sender, EventArgs e)
@@ -80,7 +81,7 @@ namespace Tic_Tac_Toe_Application
                 LeftButton.BackColor= Color.Blue;
             }
             turn= !turn;
-
+            LeftButton.Enabled = false;
         }
 
         private void MidButton_Click(object sender, EventArgs e)
@@ -96,7 +97,7 @@ namespace Tic_Tac_Toe_Application
                 MidButton.BackColor= Color.Blue;
             }
             turn = !turn;
-
+            MidButton.Enabled = false;
         }
 
         private void RightButton_Click(object sender, EventArgs e)
@@ -112,7 +113,7 @@ namespace Tic_Tac_Toe_Application
                 RightButton.BackColor = Color.Blue;
             }
             turn = !turn;
-
+            RightButton.Enabled = false;
         }
 
         private void DownLeftButton_Click(object sender, EventArgs e)
@@ -128,7 +129,7 @@ namespace Tic_Tac_Toe_Application
                 DownLeftButton.BackColor = Color.Blue;
             }
             turn = !turn;
-
+            DownLeftButton.Enabled = false;
         }
 
         private void DownButton_Click(object sender, EventArgs e)
@@ -144,6 +145,7 @@ namespace Tic_Tac_Toe_Application
                 DownButton.BackColor = Color.Blue;
             }
             turn = !turn;
+            DownButton.Enabled = false;
         }
 
         private void DownRightButton_Click(object sender, EventArgs e)
@@ -159,6 +161,7 @@ namespace Tic_Tac_Toe_Application
                 DownRightButton.BackColor = Color.Blue;
             }
             turn = !turn;
+            DownRightButton.Enabled = false;   
             //deciding the winner
         }
     }
