@@ -12,6 +12,8 @@ namespace Tic_Tac_Toe_Application
 {
     public partial class Form1 : Form
     {
+        bool turn = true;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,7 +21,7 @@ namespace Tic_Tac_Toe_Application
 
         private void UpLeftButton_Click(object sender, EventArgs e)
         {
-            if (UpLeftButton.Text == "")
+            if (turn)
             {
                 UpLeftButton.Text = "X";
                 UpLeftButton.BackColor = Color.Red;
@@ -29,11 +31,12 @@ namespace Tic_Tac_Toe_Application
                 UpLeftButton.Text = "O";
                 UpLeftButton.BackColor = Color.Blue;
             }
+            turn = !turn;
         }
 
         private void UpButton_Click(object sender, EventArgs e)
         {
-            if (UpButton.Text == "")
+            if (turn)
             {
                 UpButton.Text = "X";
                 UpButton.BackColor = Color.Red;
@@ -43,11 +46,12 @@ namespace Tic_Tac_Toe_Application
                 UpButton.Text = "O";
                 UpButton.BackColor= Color.Blue;
             }
+            turn = !turn;
         }
 
         private void UpRightButton_Click(object sender, EventArgs e)
         {
-            if (UpRightButton.Text == "")
+            if (turn)
             {
                 UpRightButton.Text = "X";
                 UpRightButton.BackColor = Color.Red;
@@ -57,11 +61,12 @@ namespace Tic_Tac_Toe_Application
                 UpRightButton.Text = "O";
                 UpRightButton.BackColor = Color.Blue;
             }
+            turn = !turn;
         }
 
         private void LeftButton_Click(object sender, EventArgs e)
         {
-            if (LeftButton.Text == "")
+            if (turn)
             {
                 LeftButton.Text = "X";
                 LeftButton.BackColor = Color.Red;
@@ -71,11 +76,12 @@ namespace Tic_Tac_Toe_Application
                 LeftButton.Text = "O";
                 LeftButton.BackColor= Color.Blue;
             }
+            turn= !turn;
         }
 
         private void MidButton_Click(object sender, EventArgs e)
         {
-            if (MidButton.Text == "")
+            if (turn)
             {
                 MidButton.Text = "X";
                 MidButton.BackColor = Color.Red;
@@ -85,11 +91,12 @@ namespace Tic_Tac_Toe_Application
                 MidButton.Text = "O";
                 MidButton.BackColor= Color.Blue;
             }
+            turn = !turn;
         }
 
         private void RightButton_Click(object sender, EventArgs e)
         {
-            if (RightButton.Text == "")
+            if (turn)
             {
                 RightButton.Text = "X";
                 RightButton.BackColor = Color.Red;
@@ -99,11 +106,12 @@ namespace Tic_Tac_Toe_Application
                 RightButton.Text = "O";
                 RightButton.BackColor = Color.Blue;
             }
+            turn=!turn;
         }
 
         private void DownLeftButton_Click(object sender, EventArgs e)
         {
-            if (DownLeftButton.Text == "")
+            if (turn)
             {
                 DownLeftButton.Text = "X";
                 DownLeftButton.BackColor = Color.Red;
@@ -113,11 +121,12 @@ namespace Tic_Tac_Toe_Application
                 DownLeftButton.Text = "O";
                 DownLeftButton.BackColor = Color.Blue;
             }
+            turn = !turn;
         }
 
         private void DownButton_Click(object sender, EventArgs e)
         {
-            if (DownButton.Text == "")
+            if (turn)
             {
                 DownButton.Text = "X";
                 DownButton.BackColor = Color.Red;
@@ -131,7 +140,7 @@ namespace Tic_Tac_Toe_Application
 
         private void DownRightButton_Click(object sender, EventArgs e)
         {
-            if (DownRightButton.Text == "")
+            if (turn)
             {
                 DownRightButton.Text = "X";
                 DownRightButton.BackColor = Color.Red;
@@ -141,7 +150,7 @@ namespace Tic_Tac_Toe_Application
                 DownRightButton.Text = "O";
                 DownRightButton.BackColor = Color.Blue;
             }
-            //problem with player turn to push the button
+            turn = !turn;
             //deciding the winner
             //stop the button after click
         }
