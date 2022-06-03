@@ -14,6 +14,90 @@ namespace Tic_Tac_Toe_Application
     {
         bool turn = true;
 
+        void winner()
+        {
+            // Player 1 wins
+            if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (LeftButton.Text == "X" && MidButton.Text == "X" && RightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (DownLeftButton.Text == "X" && DownButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpLeftButton.Text == "X" && LeftButton.Text == "X" && DownLeftButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpButton.Text == "X" && MidButton.Text == "X" && DownButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpRightButton.Text == "X" && RightButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpLeftButton.Text == "X" && MidButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (DownLeftButton.Text == "X" && MidButton.Text == "X" && UpRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (LeftButton.Text == "X" && MidButton.Text == "X" && RightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (DownLeftButton.Text == "X" && DownButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpLeftButton.Text == "X" && LeftButton.Text == "X" && DownLeftButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpButton.Text == "X" && MidButton.Text == "X" && DownButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpRightButton.Text == "X" && RightButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (UpLeftButton.Text == "X" && MidButton.Text == "X" && DownRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+            if (DownLeftButton.Text == "X" && MidButton.Text == "X" && UpRightButton.Text == "X")
+            {
+                MessageBox.Show("Player 1 wins");
+
+            }
+        }
         public Form1()
         {
             InitializeComponent();
