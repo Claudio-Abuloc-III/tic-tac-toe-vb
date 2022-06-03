@@ -22,10 +22,12 @@ namespace Tic_Tac_Toe_Application
             if (UpLeftButton.Text == "")
             {
                 UpLeftButton.Text = "X";
+                UpLeftButton.BackColor = Color.Red;
             }
             else
             {
                 UpLeftButton.Text = "O";
+                UpLeftButton.BackColor = Color.Blue;
             }
         }
 
