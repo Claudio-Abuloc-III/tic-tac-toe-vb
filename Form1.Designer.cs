@@ -43,6 +43,7 @@
             // 
             // Box
             // 
+            this.Box.BackColor = System.Drawing.Color.SaddleBrown;
             this.Box.Controls.Add(this.DownRightButton);
             this.Box.Controls.Add(this.DownButton);
             this.Box.Controls.Add(this.DownLeftButton);
