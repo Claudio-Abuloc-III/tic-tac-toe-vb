@@ -65,6 +65,7 @@
             this.UpLeftButton.Size = new System.Drawing.Size(166, 125);
             this.UpLeftButton.TabIndex = 0;
             this.UpLeftButton.UseVisualStyleBackColor = true;
+            this.UpLeftButton.Click += new System.EventHandler(this.UpLeftButton_Click);
             // 
             // UpButton
             // 
@@ -73,6 +74,7 @@
             this.UpButton.Size = new System.Drawing.Size(166, 125);
             this.UpButton.TabIndex = 1;
             this.UpButton.UseVisualStyleBackColor = true;
+            this.UpButton.Click += new System.EventHandler(this.UpButton_Click);
             // 
             // UpRightButton
             // 
@@ -81,6 +83,7 @@
             this.UpRightButton.Size = new System.Drawing.Size(166, 125);
             this.UpRightButton.TabIndex = 2;
             this.UpRightButton.UseVisualStyleBackColor = true;
+            this.UpRightButton.Click += new System.EventHandler(this.UpRightButton_Click);
             // 
             // LeftButton
             // 
@@ -89,6 +92,7 @@
             this.LeftButton.Size = new System.Drawing.Size(166, 125);
             this.LeftButton.TabIndex = 3;
             this.LeftButton.UseVisualStyleBackColor = true;
+            this.LeftButton.Click += new System.EventHandler(this.LeftButton_Click);
             // 
             // MidButton
             // 
@@ -97,6 +101,7 @@
             this.MidButton.Size = new System.Drawing.Size(166, 125);
             this.MidButton.TabIndex = 4;
             this.MidButton.UseVisualStyleBackColor = true;
+            this.MidButton.Click += new System.EventHandler(this.MidButton_Click);
             // 
             // RightButton
             // 
@@ -105,6 +110,7 @@
             this.RightButton.Size = new System.Drawing.Size(166, 125);
             this.RightButton.TabIndex = 5;
             this.RightButton.UseVisualStyleBackColor = true;
+            this.RightButton.Click += new System.EventHandler(this.RightButton_Click);
             // 
             // DownLeftButton
             // 
@@ -113,6 +119,7 @@
             this.DownLeftButton.Size = new System.Drawing.Size(166, 125);
             this.DownLeftButton.TabIndex = 6;
             this.DownLeftButton.UseVisualStyleBackColor = true;
+            this.DownLeftButton.Click += new System.EventHandler(this.DownLeftButton_Click);
             // 
             // DownButton
             // 
@@ -121,6 +128,7 @@
             this.DownButton.Size = new System.Drawing.Size(166, 125);
             this.DownButton.TabIndex = 7;
             this.DownButton.UseVisualStyleBackColor = true;
+            this.DownButton.Click += new System.EventHandler(this.DownButton_Click);
             // 
             // DownRightButton
             // 
@@ -129,6 +137,7 @@
             this.DownRightButton.Size = new System.Drawing.Size(166, 125);
             this.DownRightButton.TabIndex = 8;
             this.DownRightButton.UseVisualStyleBackColor = true;
+            this.DownRightButton.Click += new System.EventHandler(this.DownRightButton_Click);
             // 
             // Form1
             // 
