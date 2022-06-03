@@ -14,89 +14,103 @@ namespace Tic_Tac_Toe_Application
     {
         bool turn = true;
 
+        void Enable_False()
+        {
+            UpLeftButton.Enabled = false;
+            UpButton.Enabled = false;
+            UpRightButton.Enabled = false;
+            LeftButton.Enabled = false;
+            MidButton.Enabled = false;
+            RightButton.Enabled = false;
+            DownLeftButton.Enabled = false;
+            DownButton.Enabled = false;
+            DownRightButton.Enabled = false;
+        }
         void winner()
         {
-            // Player 1 wins
+
             if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (LeftButton.Text == "X" && MidButton.Text == "X" && RightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (DownLeftButton.Text == "X" && DownButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpLeftButton.Text == "X" && LeftButton.Text == "X" && DownLeftButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpButton.Text == "X" && MidButton.Text == "X" && DownButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpRightButton.Text == "X" && RightButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpLeftButton.Text == "X" && MidButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (DownLeftButton.Text == "X" && MidButton.Text == "X" && UpRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpLeftButton.Text == "X" && UpButton.Text == "X" && UpRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (LeftButton.Text == "X" && MidButton.Text == "X" && RightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (DownLeftButton.Text == "X" && DownButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpLeftButton.Text == "X" && LeftButton.Text == "X" && DownLeftButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpButton.Text == "X" && MidButton.Text == "X" && DownButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpRightButton.Text == "X" && RightButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (UpLeftButton.Text == "X" && MidButton.Text == "X" && DownRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
             if (DownLeftButton.Text == "X" && MidButton.Text == "X" && UpRightButton.Text == "X")
             {
                 MessageBox.Show("Player 1 wins");
-
+                Enable_False();
             }
+
+
         }
         public Form1()
         {
@@ -115,6 +129,7 @@ namespace Tic_Tac_Toe_Application
                 UpLeftButton.Text = "O";
                 UpLeftButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             UpLeftButton.Enabled = false;
         }
@@ -131,6 +146,7 @@ namespace Tic_Tac_Toe_Application
                 UpButton.Text = "O";
                 UpButton.BackColor= Color.Blue;
             }
+            winner();
             turn = !turn;
             UpButton.Enabled = false;
 
@@ -148,6 +164,7 @@ namespace Tic_Tac_Toe_Application
                 UpRightButton.Text = "O";
                 UpRightButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             UpRightButton.Enabled = false;
         }
@@ -164,7 +181,8 @@ namespace Tic_Tac_Toe_Application
                 LeftButton.Text = "O";
                 LeftButton.BackColor= Color.Blue;
             }
-            turn= !turn;
+            winner();
+            turn = !turn;
             LeftButton.Enabled = false;
         }
 
@@ -180,6 +198,7 @@ namespace Tic_Tac_Toe_Application
                 MidButton.Text = "O";
                 MidButton.BackColor= Color.Blue;
             }
+            winner();
             turn = !turn;
             MidButton.Enabled = false;
         }
@@ -196,6 +215,7 @@ namespace Tic_Tac_Toe_Application
                 RightButton.Text = "O";
                 RightButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             RightButton.Enabled = false;
         }
@@ -212,6 +232,7 @@ namespace Tic_Tac_Toe_Application
                 DownLeftButton.Text = "O";
                 DownLeftButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             DownLeftButton.Enabled = false;
         }
@@ -228,6 +249,7 @@ namespace Tic_Tac_Toe_Application
                 DownButton.Text = "O";
                 DownButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             DownButton.Enabled = false;
         }
@@ -244,6 +266,7 @@ namespace Tic_Tac_Toe_Application
                 DownRightButton.Text = "O";
                 DownRightButton.BackColor = Color.Blue;
             }
+            winner();
             turn = !turn;
             DownRightButton.Enabled = false;   
             //deciding the winner
