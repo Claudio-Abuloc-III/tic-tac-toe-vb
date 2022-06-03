@@ -32,6 +32,7 @@ namespace Tic_Tac_Toe_Application
                 UpLeftButton.BackColor = Color.Blue;
             }
             turn = !turn;
+            UpLeftButton.Enabled = false;
         }
 
         private void UpButton_Click(object sender, EventArgs e)
@@ -152,7 +153,6 @@ namespace Tic_Tac_Toe_Application
             }
             turn = !turn;
             //deciding the winner
-            //stop the button after click
         }
     }
 }
