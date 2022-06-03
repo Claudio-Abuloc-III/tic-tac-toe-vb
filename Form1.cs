@@ -150,6 +150,14 @@ namespace Tic_Tac_Toe_Application
                 MessageBox.Show("Player 2 wins");
                 Enable_False();
             }
+            if (UpRightButton.Text == "X" && MidButton.Text == "O" && UpButton.Text == "X" && UpLeftButton.Text == "O" && DownRightButton.Text == "X" && RightButton.Text == "O" && LeftButton.Text == "X" && DownButton.Text == "O" && DownLeftButton.Text == "X")
+            {
+                MessageBox.Show("Draw");
+            }
+            if (UpRightButton.Text == "X" && MidButton.Text == "X" && UpButton.Text == "X" && UpLeftButton.Text == "X" && DownRightButton.Text == "O" && RightButton.Text == "X" && LeftButton.Text == "X" && DownButton.Text == "X" && DownLeftButton.Text == "O")
+            {
+                MessageBox.Show("Draw");
+            }
 
         }
         public Form1()
