@@ -61,7 +61,7 @@
             // 
             // UpLeftButton
             // 
-            this.UpLeftButton.Font = new System.Drawing.Font("Modern No. 20", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpLeftButton.Font = new System.Drawing.Font("Modern No. 20", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UpLeftButton.Location = new System.Drawing.Point(34, 83);
             this.UpLeftButton.Name = "UpLeftButton";
             this.UpLeftButton.Size = new System.Drawing.Size(166, 125);
